@@ -1,4 +1,5 @@
 # Ejercicio 1
+print("ejercicio 1------------")
 def is_valid_zip(zip_code):
 
     print(zip_code)
@@ -9,7 +10,8 @@ def is_valid_zip(zip_code):
     pass
 
 # Ejercicio 2
- def word_search(doc_list, keyword):
+print("ejercicio 2------------")
+def word_search(doc_list, keyword):
     lista=[]
     i=0
     doc_list
@@ -33,6 +35,8 @@ def is_valid_zip(zip_code):
     pass
 
 # Ejercicio 3
+print("ejercicio 3------------")
+def word_search(doc_list, keyword):
     keyword_to_indices = {}
     for keyword in keywords:
         keyword_to_indices[keyword] = word_search(doc_list, keyword)

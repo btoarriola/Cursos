@@ -1,4 +1,5 @@
 # Ejercicio 1
+print("ejercicio 1------------")
 def round_to_two_places(num):
 
     return round(num, 2)
@@ -6,9 +7,11 @@ def round_to_two_places(num):
 round_to_two_places(3.14159)
 
 # Ejercicio 2
+print("ejercicio 2------------")
 print (round(3.141522229, -2))
 
 # Ejercicio 3
+print("ejercicio 3------------")
 def to_smash(total_candies, friends=3):
     return total_candies % friends
 

@@ -1,4 +1,5 @@
 # Ejercicio 1
+print("ejercicio 1------------")
 def prettify_graph(graph):
     graph.set_title("Results of 500 slot machine pulls")
     graph.set_ylim(bottom=0)
@@ -9,6 +10,7 @@ prettify_graph(graph)
 graph
 
 # Ejercicio 2
+print("ejercicio 2------------")
 def best_items(racers):
     winner_item_counts = {}
     for rango in range(len(racers)):
@@ -28,6 +30,7 @@ def best_items(racers):
 best_items(full_dataset)
 
 # Ejercicio 3
+print("ejercicio 3------------")
 def hand_total(hand):
     total = 0
     aces = 0

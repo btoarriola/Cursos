@@ -1,4 +1,5 @@
 # Ejercicio 1
+print("ejercicio 1------------")
 def sign(n):
     if(n>0):
         return 1
@@ -9,6 +10,7 @@ def sign(n):
 sign(0)
 
 # Ejercicio 2
+print("ejercicio 2------------")
 def to_smash(total_candies):
     print("Splitting", total_candies, "candies")
     return total_candies % 3
@@ -16,7 +18,7 @@ def to_smash(total_candies):
 to_smash(91)
 
 # Ejercicio 2
-
+print("ejercicio 2------------")
 def to_smash(total_candies):
     if(total_candies>1):
         print("Splitting", total_candies, "candies")
@@ -29,6 +31,7 @@ to_smash(91)
 to_smash(1)
 
 # Ejercicio 3
+print("ejercicio 3------------")
 def prepared_for_weather(have_umbrella, rain_level, have_hood, is_workday):
     return have_umbrella or rain_level < 5 and have_hood or not (rain_level > 0 and is_workday)
 
@@ -42,6 +45,7 @@ actual = prepared_for_weather(have_umbrella, rain_level, have_hood, is_workday)
 print(actual)
 
 # Ejercicio 4
+print("ejercicio 4------------")
 def is_negative(number):
     if number < 0:
         return True
@@ -54,27 +58,22 @@ def concise_is_negative(number):
 
 # Ejercicio 5
 
-
+print("ejercicio 5------------")
 def onionless(ketchup, mustard, onion):
-    """Return whether the customer doesn't want onions.
-    """
+
     return not onion
 
 def wants_all_toppings(ketchup, mustard, onion):
-    """Return whether the customer wants "the works" (all 3 toppings)
-    """
+
     return(True if (ketchup==True and mustard == True and onion==True) else False)
     pass
 def wants_plain_hotdog(ketchup, mustard, onion):
-    """Return whether the customer wants a plain hot dog with no toppings.
-    """
+
     return(True if (ketchup==False and mustard == False and onion==False) else False)
     pass
     
 def exactly_one_sauce(ketchup, mustard, onion):
-    """Return whether the customer wants either ketchup or mustard, but not both.
-    (You may be familiar with this operation under the name "exclusive or")
-    """
+
     if(ketchup and mustard):
         return False
     elif(ketchup or mustard):

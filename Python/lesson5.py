@@ -1,4 +1,5 @@
 # Ejercicio 1
+print("ejercicio 1------------")
 def has_lucky_number(nums):
     for num in nums:
         if num % 7 == 0:
@@ -17,6 +18,7 @@ def has_lucky_number(nums):
         return False
 
 # Ejercicio 2
+print("ejercicio 2------------")
 def elementwise_greater_than(L, thresh):
     nl=[]
     for li in L:
@@ -29,6 +31,7 @@ def elementwise_greater_than(L, thresh):
     pass
 
 # Ejercicio 3
+print("ejercicio 3------------")
 def menu_is_boring(meals):
     for i in range(len(meals)-1):
         if meals[i] == meals[i+1]:
@@ -37,6 +40,7 @@ def menu_is_boring(meals):
     pass
 
 # Ejercicio 4
+print("ejercicio 4------------")
 def estimate_average_slot_payout(n_runs):
     payouts = [play_slot_machine()-1 for i in range(n_runs)] 
     avg_payout = sum(payouts) / n_runs
